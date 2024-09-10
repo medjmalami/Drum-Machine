@@ -57,13 +57,13 @@ function Display() {
       <div id="power" className="mt-1 fs-2 text-primary">
         power
       </div>
-      <div className="d-flex flex-row border border-1 border-black flex-nowrap w-25 m-3">
+      <div className="d-flex flex-row  flex-nowrap w-25 m-3">
         <div
           onClick={handlePower}
           className={
             power
-              ? "btn btn-dark w-50 rounded-0 user-select-none"
-              : "btn btn-primary w-50 rounded-0 user-select-none"
+              ? "btn btn-dark w-50 rounded-0 user-select-none border border-1 border-black"
+              : "btn btn-primary w-50 rounded-0 user-select-none border border-1 border-black"
           }
         >
           &nbsp;
@@ -72,8 +72,8 @@ function Display() {
           onClick={handlePower}
           className={
             power
-              ? "btn btn-primary rounded-0 w-50 user-select-none"
-              : "btn btn-dark w-50 rounded-0 user-select-none"
+              ? "btn btn-primary rounded-0 w-50 user-select-none border border-1 border-black"
+              : "btn btn-dark w-50 rounded-0 user-select-none border border-1 border-black"
           }
         >
           &nbsp;
